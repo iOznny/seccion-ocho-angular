@@ -3,7 +3,6 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-ng-style',
   template: `
-
     <p [style.fontSize.px]="size">
       Hola mundo...
     </p>
@@ -15,8 +14,6 @@ import { Component, OnInit } from '@angular/core';
     <button class="btn btn-primary" (click)="size = size - 5">
       <i class="fa fa-minus"></i>
     </button>
-
-
   `,
   styles: [
   ]
@@ -26,7 +23,8 @@ export class NgStyleComponent implements OnInit {
 
   size: number = 10;
 
-  constructor() { }
+  constructor() { 
+  }
 
   ngOnInit(): void {
   }
