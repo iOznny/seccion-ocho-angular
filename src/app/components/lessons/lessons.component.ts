@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class LessonsComponent implements OnInit {
 
   alert: string = "alert-danger";
-  properties: Object = {
+  properties: any = {
     danger: false
   }
 
